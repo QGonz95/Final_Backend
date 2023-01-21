@@ -2,9 +2,7 @@ from django.shortcuts import render
 from rest_framework import generics, filters
 from .serializers import UserSerializer, ExerciseSerializer, JournalSerializer, WorkoutSerializer
 from .models import User, Exercise, Journal, Workout
-from django.contrib.auth.hashers import make_password, check_password
-from django.http import JsonResponse
-import json
+
 
 # Create your views here.
 class UserList(generics.ListCreateAPIView):
