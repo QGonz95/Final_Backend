@@ -8,6 +8,6 @@ urlpatterns = [
     path('api/journal/<int:pk>', views.JournalDetail.as_view(), name='journal_detail'),
     path('api/exercise', views.ExerciseList.as_view(), name='exercise_list'),
     path('api/exercise/<int:pk>', views.ExerciseDetail.as_view(), name='exercise_detail'),
-    path('api/workout_logs', views.Workout_LogsList.as_view(), name='workout_logs_list'),
-    path('api/workout_logs/<int:pk>', views.Workout_LogsDetail.as_view(), name='workout_logs_detail'),
+    path('api/workout', views.WorkoutList.as_view(), name='workout_list'),
+    path('api/workout/<int:pk>', views.WorkoutDetail.as_view(), name='workout_detail'),
 ]
