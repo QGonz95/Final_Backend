@@ -1,1 +1,1 @@
-web: gunicorn final_backend.wsgi
+web: gunicorn hxh_fit_api.wsgi
