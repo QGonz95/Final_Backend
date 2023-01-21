@@ -1,1 +1,1 @@
-web: gunicorn fitness_api.wsgi
+web: gunicorn final_backend.wsgi
